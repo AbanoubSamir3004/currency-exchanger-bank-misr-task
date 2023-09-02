@@ -7,7 +7,9 @@
       "@services/*": ["app/core/services/*"],
       "@models/*": ["app/core/models/*"],
       "@pipes/*": ["app/core/pipes/*"],
-      "@pages/*": ["app/views/*"],
+      "@layout/*": ["app/views/layout/*"],
+      "@pages/*": ["app/views/pages/*"],
+      "@shared-component/*": ["app/views/shared-component/*"],
       "@env/*": ["environments/*"]
     },
     "outDir": "./dist/out-tsc",

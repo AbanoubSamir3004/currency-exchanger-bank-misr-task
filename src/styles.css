@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --main-color:#862f3b;
+}
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #862f3b40;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-color);
+}
+
+
+
+.border-main {
+  border: 1px solid var(--main-color);
+}
+.text-main {
+  color: var(--main-color);
+}
